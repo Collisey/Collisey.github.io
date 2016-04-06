@@ -15,7 +15,7 @@ $(document).ready(function() {
     QB.users.create(params, function(err, user){
       if (user) {
         $('#output_place').val(JSON.stringify(user));
-        window.location.href = "index_login.php/?username="+user.login;
+        window.location.href = "index_login.html/?username="+user.login;
       } else  {
         $('#output_place').val(JSON.stringify(err));
       }
@@ -35,7 +35,7 @@ $(document).ready(function() {
       if (user) {
         
         $('#output_place').val(JSON.stringify(user));
-        window.location.href = "index_login.php/?username="+user.login;
+        window.location.href = "index_login.html/?username="+user.login;
       } else  {
         $('#output_place').val(JSON.stringify(err));
       }

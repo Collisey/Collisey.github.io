@@ -49,7 +49,7 @@ var myMap = {
         e.preventDefault();
         var itemid = $(this).data("id");
         console.log(itemid);
-        window.location.href = "/object.php/?objectid="+itemid;
+        window.location.href = "/object.html/?objectid="+itemid;
       });
 
       var monkeyList = new List('test-list', {
@@ -144,4 +144,4 @@ var myMap = {
     }
 };
 
- $('#like').on('click', function() {window.location.href = "/liked.php/?username="+login;});
+ $('#like').on('click', function() {window.location.href = "/liked.html/?username="+login;});
