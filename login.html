@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/style1.css"/>
+</head>
+<body>
+<nav>
+        <div class="nav-wrapper">
+          <a href="/" class="brand-logo right">Ретро Волгоград</a>
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a href="/login.html">Вход</a></li>
+            <li><a href="/signup.html">Регистрация</a></li>           
+          </ul>
+        </div>
+    </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col s6">
+        <div class="row">
+          <h3>Авторизация</h3>
+          <form class="col s12" role="form">
+            <div class="input-field col s12">
+              <input type="text" class="validate" id="usr_sgn_n_lgn" placeholder="Enter login" pattern="[A-Za-z0-9_-]{4,15}" required>
+            </div>
+            <div class="input-field col s12">
+              <input type="password" class="validate" id="usr_sgn_n_pwd" placeholder="Enter password" pattern="[A-Za-z0-9_-]{8,15}" required>
+            </div>
+            <div class="col-sm-offset-2 col-sm-10">
+        <button type="button" class="btn waves-effect waves-light" id="sign_in" data-toggle="modal" data-target="#progressModal">Вход</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <hr class="line">
+  </div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script src="/quickblox.min.js"></script>
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

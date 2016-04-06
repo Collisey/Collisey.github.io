@@ -1,0 +1,4 @@
+AddDefaultCharset UTF-8
+AddType text/css css
+AddType text/javascript .js
+AddType text/html .html
